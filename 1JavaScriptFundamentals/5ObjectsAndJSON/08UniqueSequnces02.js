@@ -4,7 +4,7 @@ function uniqueSequences0(input) {
 
     for (let i = 0; i < input.length ; i++) {
 
-        let currentRow = JSON.parse(input[i]);
+        let currentRow = JSON.parse(input[i])
             .map(Number)
             .sort((a,b) => b-a)
             .toString();
